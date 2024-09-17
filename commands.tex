@@ -76,6 +76,8 @@
 
 \newcommand{\sphereentry}[1]{\oldsubsection{#1 Sphere}\label{sphere:#1}}
 
+\newcommand{\acfentry}[1]{\oldsubsubsection{#1}\label{acfentry:#1}}
+
 \NewDocumentCommand\linkrace{m+g}{%
   \IfNoValueTF{#2}
     {\hyperref[race:#1]{#1}}%no second arg, display is same as link
@@ -125,6 +127,11 @@
   \IfNoValueTF{#2}
     {\hyperref[sphere:#1]{#1}}%no second arg, display is same as link
     {\hyperref[sphere:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkacf{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[acfentry:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[acfentry:#1]{#2}}%second arg, link to first and display second
 }
 \newcommand{\combatfeat}[6]{{#1} \\ \textbf{+0:} #2 \\ \textbf{+1:} #3  \\ \textbf{+6:} #4 \\ \textbf{+11:} #5 \\ \textbf{+16:} #6 \bigskip }
 \newcommand{\skillfeat}[7]{{#1} \\ \textbf{#2}\\ \textbf{0:} #3 \\ \textbf{4:} #4 \\ \textbf{9:} #5 \\ \textbf{14:} #6 \\ \textbf{19:} #7 \bigskip }
