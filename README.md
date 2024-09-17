@@ -20,7 +20,7 @@ License
 The non-image content of this work is Open Game Content and is available
 under the Open Game License. The images of this project are Product Identity,
 and available to you under the Creative Commons Attribution-ShareAlike
-license. The Open Game License can be found in the <tt>OGLv1.0a</tt> file
+license. The Open Game License can be found in the <tt>LICENSE.md</tt> file
 
 The <tt>the-hexenstag-tome-ogl</tt> file and Appendix D: The Open Game License of the Book contains the Section 15 copyright notices
 of all other Open Game Content that has been included in this work, as
